@@ -1,4 +1,3 @@
-
 import math
 import os
 import random
@@ -8,4 +7,6 @@ import sys
 
 
 if __name__ == '__main__':
-    s = input()
+    s = input("enter string: ")
+    char_array = list(s)
+    print(char_array)
